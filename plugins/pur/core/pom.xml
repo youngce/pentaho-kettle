@@ -146,7 +146,7 @@
     <!-- Third-party dependencies -->
     <dependency>
       <groupId>org.eclipse.swt</groupId>
-      <artifactId>org.eclipse.swt.gtk.linux.x86_64</artifactId>
+      <artifactId>org.eclipse.swt.cocoa.macosx.x86_64</artifactId>
       <scope>provided</scope>
       <exclusions>
         <exclusion>

@@ -84,7 +84,7 @@
     <!-- Third-party dependencies -->
     <dependency>
       <groupId>org.eclipse.swt</groupId>
-      <artifactId>org.eclipse.swt.gtk.linux.x86_64</artifactId>
+      <artifactId>org.eclipse.swt.cocoa.macosx.x86_64</artifactId>
     </dependency>
     <dependency>
       <groupId>org.eclipse.equinox</groupId>
@@ -152,7 +152,7 @@
       <artifactId>kettle-core</artifactId>
       <version>${project.version}</version>
       <classifier>tests</classifier>
-      <scope>test</scope>
+<!--      <scope>test</scope>-->
     </dependency>
     <dependency>
       <groupId>org.mockito</groupId>

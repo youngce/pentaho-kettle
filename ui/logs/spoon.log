@@ -1,0 +1,15 @@
+org.pentaho.di.core.exception.KettleException: 
+Unable to find plugin with ID 'Kettle'.  If this is a test, make sure kettle-core tests jar is a dependency.  If this is live make sure a kettle-password-encoder-plugins.xml exits in the classpath
+
+	at org.pentaho.di.core.encryption.Encr.init(Encr.java:61)
+	at org.pentaho.di.core.KettleClientEnvironment.init(KettleClientEnvironment.java:124)
+	at org.pentaho.di.core.KettleClientEnvironment.init(KettleClientEnvironment.java:80)
+	at org.pentaho.di.core.KettleEnvironment.init(KettleEnvironment.java:134)
+	at org.pentaho.di.core.KettleEnvironment.init(KettleEnvironment.java:101)
+	at org.pentaho.di.core.KettleEnvironment.init(KettleEnvironment.java:82)
+	at org.pentaho.di.ui.spoon.Spoon$1.call(Spoon.java:643)
+	at org.pentaho.di.ui.spoon.Spoon$1.call(Spoon.java:635)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
